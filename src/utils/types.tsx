@@ -4,6 +4,12 @@ export interface IPageWrapper {
     children: ReactNode
 }
 
+export interface IModalProps {
+    isShow: boolean;
+    closeModal: any;
+    children?: any;
+}
+
 export interface ILogo {
     width?: string,
     height?: string
@@ -40,10 +46,25 @@ export interface ITimeLine {
     link: string,
     icon?: string,
     linkText: string,
-    text?:string,
+    linkIcon?: boolean,
+    text?: string,
     desc: string
 }
 
 export interface IAboutTimeLine {
     data: Array<ITimeLine>
+}
+
+export interface IProjectData {
+    id?: string,
+    title?: string,
+    link?: string,
+    text?: string,
+    img?: string,
+    tags?: string[],
+    desc?: string
+}
+
+export interface ISideNav extends IModalProps {
+    data: IProjectData
 }

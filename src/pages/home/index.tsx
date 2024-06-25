@@ -5,6 +5,7 @@ import GlitchText from '../../components/partials/GitchText'
 import Bio from './Bio'
 import NextScreenButton from '../../components/partials/NextScreen'
 import SocialAccounts from '../../components/partials/SocialAccounts'
+import FixedText from '../../components/partials/FixedText'
 
 const Home = () => {
     return (
@@ -27,6 +28,14 @@ const Home = () => {
                     </div>
 
                 </div>
+
+
+                {/* Fixed title text */}
+                <FixedText
+                    text='UM.'
+                    size='xlarge'
+                    position='fixed'
+                />
 
             </PageWrapper>
         </>

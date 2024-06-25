@@ -34,6 +34,12 @@ const Home = () => {
 
                         </div>
 
+                        <div className="mt-12">
+
+                            <NextScreenButton text='See more about me' link='/about' />
+
+                        </div>
+
                     </div>
 
 

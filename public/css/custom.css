@@ -81,8 +81,39 @@ body {
     opacity: 1;
     z-index: -1;
     bottom: 0px;
+    font-weight: 800;
 }
 
+.image-gallery {
+    position: relative;
+}
+
+.image-gallery .content{
+    position: relative;
+    background-color: #ffffff;
+}
+
+.image-gallery .content .inner{
+    opacity: 0;
+    height: 100%;
+    transition: all 500ms ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.image-gallery .content .inner:hover {
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    cursor: pointer;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.9));
+   
+}
 
 @keyframes glitch {
 
@@ -143,11 +174,11 @@ body {
         transform: translateX(0rem);
     }
 
-    25%{
+    25% {
         transform: translateX(1.5rem);
     }
 
-    50%{
+    50% {
         transform: translateX(1.5rem);
     }
 
