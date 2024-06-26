@@ -8,6 +8,7 @@ import TitleText from '../../components/partials/TitleText'
 import FixedText from '../../components/partials/FixedText'
 import TimeLine from '../../components/partials/TimeLine'
 import { AboutTimelines, MyReadsTimelines } from '../../components/mocks'
+import Reveal from '../../components/animations/Reveal'
 
 const Home = () => {
     return (
@@ -19,18 +20,31 @@ const Home = () => {
                     <TitleText
                         fontWeight='extrabold'
                         text='about me.'
-                        size='6xl'
+                        size='5xl'
                     />
 
                     <div className="mt-20">
 
-                        <TimeLine data={AboutTimelines} />
+                        <Reveal>
+
+                            <TimeLine data={AboutTimelines} />
+
+                        </Reveal>
+
 
                         <div className="mt-20">
 
-                            <p className="text-white text-xl mb-12">My Reads.</p>
+                            <TitleText
+                                fontWeight='extrabold'
+                                text='My Reads.'
+                                size='xl'
+                                className='mb-12'
+                            />
+
 
                             <TimeLine data={MyReadsTimelines} />
+
+
 
                         </div>
 

@@ -34,3 +34,20 @@ body {
     left: -0.52em;
     border: 1.5px solid  #fff;
 }
+
+.sidenav {
+    right: 0;
+    animation: sidenav 300ms ease-in-out;
+    overflow-x: hidden;
+
+}
+
+@keyframes sidenav {
+    from{
+        transform: translateX(550px);
+    }
+
+    to {
+        transform: translateX(0px);
+    }
+}

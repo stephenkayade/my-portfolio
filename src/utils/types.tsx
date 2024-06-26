@@ -25,6 +25,7 @@ export interface ItitleText {
     text?: string,
     size?: string,
     fontWeight?: string
+    className?: string
 }
 
 export interface IFixedText extends ItitleText {
@@ -59,7 +60,7 @@ export interface IProjectData {
     id?: string,
     title?: string,
     link?: string,
-    text?: string,
+    headline?: string,
     img?: string,
     tags?: string[],
     desc?: string
@@ -67,4 +68,13 @@ export interface IProjectData {
 
 export interface ISideNav extends IModalProps {
     data: IProjectData
+}
+
+export interface IStyle {
+    backgroundImage: string
+}
+export interface IReveal {
+    children: any,
+    className?: string,
+    delay?: number,
 }

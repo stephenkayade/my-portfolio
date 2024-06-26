@@ -1,6 +1,7 @@
 import React, { FC } from 'react'
 import { AboutTimelines } from '../mocks'
 import { IAboutTimeLine } from '../../utils/types'
+import Reveal from '../animations/Reveal'
 
 const TimeLine: FC<IAboutTimeLine> = ({ data }) => {
     return (
@@ -10,7 +11,7 @@ const TimeLine: FC<IAboutTimeLine> = ({ data }) => {
                 {
                     data.map((timeline) => (
 
-                        <div className="checkpoint">
+                        <Reveal className="checkpoint">
 
                             <div className=''>
                                 <div className='flex items-center justify-between pb-3'>
@@ -53,7 +54,7 @@ const TimeLine: FC<IAboutTimeLine> = ({ data }) => {
                                 </p>
                             </div>
 
-                        </div>
+                        </Reveal>
 
                     ))
                 }

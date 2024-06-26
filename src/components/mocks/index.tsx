@@ -7,16 +7,16 @@ export const NavLinkData = [
     },
 
     {
-        id: 'uwork',
-        title: 'Work',
-        link: 'work'
-    },
-
-    {
-        id:'uprojects',
+        id: 'uprojects',
         title: 'Projects',
         link: 'projects'
     },
+
+    {
+        id: 'ucontact',
+        title: 'Contact',
+        link: 'contact'
+    }
 
 ]
 
@@ -116,13 +116,83 @@ export const MyReadsTimelines = [
 export const ProjectsData = [
 
     {
+        id: 'ipterra',
+        title: 'Terraswitch.',
+        link: 'https://terraswitching.com/',
+        headline: 'Flexible payment solutions for African businesses.',
+        img: '../../../assets/images/terraswitching.png',
+        tags: ['React', 'Bootstrap', 'SEO', 'Javascript', 'Typescript', 'CRA', 'ContextAPI'],
+        desc: "Terraswitch is passionate about simplifying payments and empowering businesses. At Terraswitch, we are building a frictionless future of financial services, making payments easier, faster, and accessible for all."
+    },
+
+    {
+        id: 'ipvace',
+        title: 'Vacepay.',
+        link: 'https://www.vacepay.com/',
+        headline: 'Flexible payment solutions for African businesses.',
+        img: '../../../assets/images/vacepay.png',
+        tags: ['React', 'Bootstrap', 'SEO', 'Javascript', 'Typescript', 'CRA', 'ContextAPI', 'Nextjs'],
+        desc: "Vacepay is passionate about simplifying payments and empowering businesses. At Terraswitch, we are building a frictionless future of financial services, making payments easier, faster, and accessible for all."
+    },
+
+    {
+        id: 'ipinosuft',
+        title: 'Inosuft.',
+        link: 'https://inosuft.com/',
+        headline: 'Innovation at the core of human-centered solutions',
+        img: '../../../assets/images/inosuft.png',
+        tags: ['React', 'Bootstrap', 'SEO', 'Javascript', 'Typescript', 'CRA', 'ContextAPI'],
+        desc: "Inosuft is an established technology company helping B2B, B2C and B2B2C brands/companies relate with their customers and stand out as industry leaders"
+    },
+
+    {
+        id: 'ipconcreap',
+        title: 'Concreap.',
+        link: 'https://concreap.com/',
+        headline: 'Building smart, great talents',
+        img: '../../../assets/images/concreap.png',
+        tags: ['React', 'Bootstrap', 'SEO', 'Javascript', 'Typescript', 'Nextjs', 'CRA', 'ContextAPI'],
+        desc: "Conreap takes a non-traditional approach in building smart and innovative tech talents. Learn world-class, industry standard professional skills from novice to PRO."
+    },
+
+    {
         id: 'ipmyrioi',
         title: 'MYRIOI.',
         link: 'https://www.myrioisolutions.co/',
-        text: 'headline',
+        headline: 'Build solutions that works for your business.',
         img: '../../../assets/images/myrioi.png',
-        tags:['React', 'Bootstrap', 'CRA', 'ContextAPI'],
-        desc: "."
-    }
+        tags: ['React', 'Bootstrap', 'Javascript', 'CRA', 'ContextAPI'],
+        desc: "We design & develop quality products to help small & medium level business. This is how we work, we collaborate with you to build solutions tailored down to your business.Through our expertise, garnered over the years, we building simple solutions to match organizational and Industrial goals and solve complex problems"
+    },
+
+    {
+        id: 'iplof',
+        title: 'LOF.',
+        link: 'https://www.legendsoffootballawards.net/',
+        headline: 'Celebrating football legends',
+        img: '../../../assets/images/lof.png',
+        tags: ['React', 'Tailwind', 'Javascript', 'Typescript', 'CRA'],
+        desc: "Over the years, stars have emerged at different levels of world football. However, one aspect is missing- a Legend Award to celebrate the legend of the game every year! The Legends of Football Award will recognize past football heroes and celebrate them, bringing everlasting memories of their exploits in the round leather game."
+    },
+
+    {
+        id: 'ipschoolshell',
+        title: 'Schoolshell.',
+        link: 'https://schoolshell.com/',
+        headline: 'The Best of Both Worlds combining Excellent Administration with heart and utmost care for your wards',
+        img: '../../../assets/images/schoolshell.png',
+        tags: ['React', 'React Native', 'Javascript', 'ContextAPI', 'Stylesheet' ],
+        desc: "SchoolShell is not just a software, it's a Revolutionary Game Changer created to garner the most fundamental forces in every students towards academic and behavioural excellence."
+    },
+
+    {
+        id: 'ipsdg-rant',
+        title: 'SDG Grant portal.',
+        link: 'https://www.myrioisolutions.co/',
+        headline: 'Build solutions that works for your business.',
+        img: '../../../assets/images/sdg-grant.png',
+        tags: ['React', 'Bootstrap', 'Javascript', 'CRA', 'Redux'],
+        desc: "the SDG Grants portal is a specialized platform designed to manage and process grant applications, specifically for projects related to Sustainable Development Goals (SDGs).The SDG Grants portal serves as a grants platform that facilitates the collection and screening of applications. It is likely tailored to handle large volumes of applications efficiently. The platform includes three dashboards, which presumably serve different purposes such as application submission, review, and administration. These dashboards help in managing the entire lifecycle of grant applications from submission to final selection. It focuses on applications from Lagos state residents, indicating a regional or localized scope for the grants. Initially, the portal was used to process applications for a grant amounting to ₦255 million. This grant was intended to fund 51 projects within Lagos state. This indicates a significant financial impact aimed at supporting various community-driven projects aligned with SDGs."
+    },
 
 ]
