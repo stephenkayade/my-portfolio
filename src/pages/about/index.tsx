@@ -50,7 +50,7 @@ const Home = () => {
 
                         <div className="mt-12">
 
-                            <NextScreenButton text='See more about me' link='/about' />
+                            <NextScreenButton text='See more about me' link='projects' />
 
                         </div>
 

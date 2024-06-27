@@ -181,7 +181,7 @@ export const ProjectsData = [
         link: 'https://schoolshell.com/',
         headline: 'The Best of Both Worlds combining Excellent Administration with heart and utmost care for your wards',
         img: '../../../assets/images/schoolshell.png',
-        tags: ['React', 'React Native', 'Javascript', 'ContextAPI', 'Stylesheet' ],
+        tags: ['React', 'React Native', 'Javascript', 'ContextAPI', 'Stylesheet'],
         desc: "SchoolShell is not just a software, it's a Revolutionary Game Changer created to garner the most fundamental forces in every students towards academic and behavioural excellence."
     },
 
@@ -195,4 +195,39 @@ export const ProjectsData = [
         desc: "the SDG Grants portal is a specialized platform designed to manage and process grant applications, specifically for projects related to Sustainable Development Goals (SDGs).The SDG Grants portal serves as a grants platform that facilitates the collection and screening of applications. It is likely tailored to handle large volumes of applications efficiently. The platform includes three dashboards, which presumably serve different purposes such as application submission, review, and administration. These dashboards help in managing the entire lifecycle of grant applications from submission to final selection. It focuses on applications from Lagos state residents, indicating a regional or localized scope for the grants. Initially, the portal was used to process applications for a grant amounting to ₦255 million. This grant was intended to fund 51 projects within Lagos state. This indicates a significant financial impact aimed at supporting various community-driven projects aligned with SDGs."
     },
 
+]
+
+export const skills = [
+    'Javascript',
+    'Typescript',
+    'Next.js',
+    'Node.js',
+    'Express.js',
+    'HTML5',
+    'CSS3',
+    'Bootstrap',
+    'TailwindCSS',
+    'React',
+    'React Native',
+    'Redux',
+    'React-Query',
+    'Tanstack query',
+    'ContextAPI',
+    'React charts',
+    'Python',
+    'Git',
+    'Github',
+    'Bitbucket',
+    'JIRA',
+    'Trello',
+    'Asana',
+    'Vscode',
+    'Postman',
+    'MongoDB compass',
+    'npm',
+    'yarn',
+    'Jupyter Notebook',
+    'Heroku',
+    'Railway',
+    'Vercel'
 ]

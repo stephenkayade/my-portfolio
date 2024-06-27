@@ -73,8 +73,13 @@ export interface ISideNav extends IModalProps {
 export interface IStyle {
     backgroundImage: string
 }
+
 export interface IReveal {
     children: any,
     className?: string,
     delay?: number,
+}
+
+export interface ISkillsData {
+    data: string[]
 }

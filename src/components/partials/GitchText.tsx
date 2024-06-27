@@ -4,7 +4,7 @@ import { IGlitchText } from '../../utils/types'
 const GlitchText: FC<IGlitchText> = ({ text }) => {
     return (
         <>
-            <p className="text-white text-5xl glitch">
+            <p className="text-white text-4xl glitch">
                 <span aria-hidden='true'>{text}</span>
                 <span aria-hidden='true'>{text}</span>
                 <span aria-hidden='true'>{text}</span>
