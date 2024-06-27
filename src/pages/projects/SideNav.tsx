@@ -7,9 +7,9 @@ const SideNav: FC<ISideNav> = ({ data, isShow, closeModal }) => {
 
     useEffect(() => {
 
-        isShow ? document.body.style.overflow = 'hidden' : document.body.style.overflow = 'auto'
+        isShow === true ? document.body.style.overflow = 'hidden' : document.body.style.overflow = 'auto'
 
-    }, [])
+    }, [isShow])
 
     const closeX = (e?: MouseEvent<HTMLElement>) => {
 

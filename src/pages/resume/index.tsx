@@ -12,7 +12,7 @@ const Resume = () => {
         <>
             <PageWrapper>
 
-                <div className='max-w-screen-md mx-auto mb-12 pt-16'>
+                <div className='xl:max-w-screen-md 2xl:max-w-screen-md md:max- max-w-screen-md mx-auto mb-12 pt-16'>
 
                     <TitleText
                         fontWeight='extrabold'
