@@ -7,14 +7,15 @@ import SocialAccounts from '../../components/partials/SocialAccounts'
 import TitleText from '../../components/partials/TitleText'
 import FixedText from '../../components/partials/FixedText'
 import TimeLine from '../../components/partials/TimeLine'
-import { AboutTimelines, MyReadsTimelines } from '../../components/mocks'
+import { AboutTimelines, MyReadsTimelines, contactList } from '../../components/mocks'
+import ContactList from './ContactList'
 
 const Contact = () => {
     return (
         <>
             <PageWrapper>
 
-                <div className='max-w-screen-md mx-auto mb-12 pt-16'>
+                <div className='2xl:max-w-screen-lg max-w-screen-md mx-auto mb-12 pt-16'>
 
                     <TitleText
                         fontWeight='extrabold'
@@ -22,12 +23,13 @@ const Contact = () => {
                         size='5xl'
                     />
 
-                    <div className="mt-20">
+                    <div className="mt-16">
 
+                        <ContactList data={contactList} />
 
                         <div className="mt-12">
 
-                            <NextScreenButton text='Click to go home' link='/' />
+                            <NextScreenButton text='Click to go home' link='' />
 
                         </div>
 

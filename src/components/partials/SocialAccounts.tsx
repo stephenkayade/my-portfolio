@@ -11,7 +11,7 @@ const SocialAccounts = () => {
 
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="h-4 w-4"
+                        className="2xl:size-5 lg:size-6 size-4"
                         fill="#ffffff"
                         viewBox="0 0 24 24"
                     >
@@ -24,7 +24,7 @@ const SocialAccounts = () => {
                 <a href="https://www.youtube.com/channel/UCu1Q9PnwRm8LSPlc0PdZehQ" target='_blank' className='pt-1'>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="h-4 w-4"
+                        className="2xl:size-5 lg:size-6 size-4"
                         fill="#ffffff"
                         viewBox="0 0 24 24"
                     >
@@ -37,7 +37,7 @@ const SocialAccounts = () => {
                 <a href='https://wa.me/7043610278' target='_blank' className='pt-1'>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="h-4 w-4"
+                        className="2xl:size-5 lg:size-6 size-4"
                         fill="#ffffff"
                         viewBox="0 0 24 24"
                     >
@@ -49,7 +49,7 @@ const SocialAccounts = () => {
                 <a href='https://wa.me/7043610278' target='_blank' className='pt-1'>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="h-4 w-4"
+                        className="2xl:size-5 lg:size-6 size-4"
                         fill="#ffffff"
                         viewBox="0 0 24 24"
                     >

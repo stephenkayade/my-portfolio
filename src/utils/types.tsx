@@ -83,3 +83,16 @@ export interface IReveal {
 export interface ISkillsData {
     data: string[]
 }
+
+export interface IContactProps {
+    id: string
+    title?: string,
+    text?: string,
+    link?:string,
+    iconPath?: string,
+    fill?:string
+}
+
+export interface IContactList {
+    data: Array<IContactProps>
+}

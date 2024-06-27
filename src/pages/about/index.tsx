@@ -15,7 +15,7 @@ const Home = () => {
         <>
             <PageWrapper>
 
-                <div className='max-w-screen-md mx-auto mb-12 pt-16'>
+                <div className='2xl:max-w-screen-lg max-w-screen-md mx-auto mb-12 pt-16'>
 
                     <TitleText
                         fontWeight='extrabold'

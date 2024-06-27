@@ -25,20 +25,20 @@ const SideNav: FC<ISideNav> = ({ data, isShow, closeModal }) => {
         <>
             <Modal isShow={isShow}>
 
-                <aside className="absolute sidenav bg-[#020a13] w-[550px]  bottom-0 top-0 z-40 py-9 px-8">
+                <aside className="absolute sidenav bg-[#020a13] 2xl:w-[550px] xl:w-[550px] lg:w-[550px] md:w-[550px] w-full  bottom-0 top-0 z-40 py-9 px-8">
 
                     <div className='overflow-y-auto h-full pb-12'>
 
                         <div className="flex items-center justify-between border-b-[0.5px] border-slate-50/15 pb-4">
 
-                            <button onClick={(e) => closeX(e)} className="h-5 w-5 cursor flex items-center border-2 border-slate-400 rounded-full justify-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={4} stroke="rgb(148 163 184)" className="size-3 text-slate-300">
+                            <button onClick={(e) => closeX(e)} className="2xl:size-7 size-5 cursor flex items-center 2xl:border-none border-2 border-slate-400 rounded-full justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={4} stroke="rgb(148 163 184)" className="2xl:size-5 size-3 text-slate-300">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
                                 </svg>
 
                             </button>
 
-                            <button onClick={(e) => closeX(e)} className='text-slate-500 text-sm font-bold hover:underline capitalize'>Back to project</button>
+                            <button onClick={(e) => closeX(e)} className='text-slate-500 2xl:text-base text-sm font-bold hover:underline capitalize'>Back to projects</button>
 
                         </div>
 
@@ -54,7 +54,7 @@ const SideNav: FC<ISideNav> = ({ data, isShow, closeModal }) => {
                                     className='mb-3'
                                 />
 
-                                <p className='text-slate-300 text-sm font-extralight'>{data.headline}</p>
+                                <p className='text-slate-300 2xl:text-lg text-sm font-extralight'>{data.headline}</p>
 
                             </div>
 
@@ -74,25 +74,20 @@ const SideNav: FC<ISideNav> = ({ data, isShow, closeModal }) => {
                                     className='mb-3'
                                 />
 
-                                <p className='text-slate-300 text-sm font-extralight'>{data.desc}</p>
+                                <p className='text-slate-300 2xl:text-lg text-sm font-extralight'>{data.desc}</p>
 
                             </div>
 
                             <div className='mb-7'>
 
-                                <TitleText
-                                    fontWeight='medium'
-                                    text='Technologies'
-                                    size='lg'
-                                    className='mb-2'
-                                />
+                                <TitleText fontWeight='medium' text='Technologies' size='lg' className='mb-2' />
 
                                 <div className="pl-1">
 
                                     {
                                         data!.tags?.map((tag, index) => (
                                             <div key={index} className='inline-flex flex-wrap'>
-                                                <span className={`${data!.tags!.length > 4 ? 'mb-3' : ''} bulge mr-4 bg-[#2d3d4d] rounded-sm px-3 py-1 text-xs font-medium text-white outline-offset-2 outline outline-slate-600`}>
+                                                <span className={`${data!.tags!.length > 4 ? 'mb-3' : ''} bulge mr-4 bg-[#2d3d4d] rounded-sm px-3 py-1 2xl:text-[15px] text-xs font-medium text-white outline-offset-2 outline outline-slate-600`}>
                                                     {tag}
                                                 </span>
                                             </div>
@@ -107,9 +102,9 @@ const SideNav: FC<ISideNav> = ({ data, isShow, closeModal }) => {
 
                             <div className='mb-7'>
 
-                                <h3 className='text-white text-lg font-medium mb-2'>Website</h3>
+                                <TitleText fontWeight='medium' text='Website' size='lg' className='mb-2' />
 
-                                <a href={`${data.link}`} target='_blank' className='text-slate-400 text-sm font-medium hover:underline'>{data.link}</a>
+                                <a href={`${data.link}`} target='_blank' className='text-slate-400 2xl:text-lg text-sm font-medium hover:underline'>{data.link}</a>
 
 
                             </div>

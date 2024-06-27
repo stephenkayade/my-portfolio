@@ -30,7 +30,7 @@ const NavLinks = () => {
                         key={navlink.id}
                         to={`/${navlink.link}`}
                         onClick={(e) => handleClick(e, navlink.title, navlink.link)}
-                        className={`nav-link text-white/80 text-base font-light pl-8 ${navlink.title === active ? 'hidden' : 'inline-flex'}`}
+                        className={`nav-link text-white/80 2xl:text-xl text-base font-light pl-8 ${navlink.title === active ? 'hidden' : 'inline-flex'}`}
                         style={option}
                     >
                         {navlink.title}

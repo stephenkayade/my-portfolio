@@ -16,7 +16,7 @@ const TimeLine: FC<IAboutTimeLine> = ({ data }) => {
                             <div className=''>
                                 <div className='flex items-center justify-between pb-3'>
                                     <h2 className={`flex ${timeline.text ? 'items-end' : 'items-center'} -mt-1.5`}>
-                                        <span className="text-white text-lg capitalize pr-2">{timeline.title}</span>
+                                        <span className="text-white 2xl:text-xl text-lg capitalize pr-2">{timeline.title}</span>
 
                                         {
                                             timeline.icon &&
@@ -33,7 +33,7 @@ const TimeLine: FC<IAboutTimeLine> = ({ data }) => {
 
                                         {
                                             timeline.text &&
-                                            <span className="text-white text-sm font-extralight capitalize pb-[3px]">{timeline.text}</span>
+                                            <span className="text-white 2xl:text-base text-sm font-extralight capitalize 2xl:pb-0 pb-[3px]">{timeline.text}</span>
 
                                         }
 
@@ -49,7 +49,7 @@ const TimeLine: FC<IAboutTimeLine> = ({ data }) => {
                                         <span className='underline text-white font-light capitalize pl-2'>{timeline.linkText}</span>
                                     </a>
                                 </div>
-                                <p className='text-slate-300 text-[15px] font-extralight leading-loose tracking-wide'>
+                                <p className='text-slate-300 2xl:text-lg text-[15px] font-extralight 2xl:leading-[2.2em] leading-loose tracking-wide'>
                                     {timeline.desc}
                                 </p>
                             </div>

@@ -20,7 +20,7 @@ const Home = () => {
                         <Bio />
                     </div>
 
-                    <NextScreenButton text='See more about me' link='/about' />
+                    <NextScreenButton text='See more about me' link='about' />
 
                     {/* Social icons */}
                     <div className='mt-7'>
