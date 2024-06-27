@@ -92,7 +92,7 @@ const SideNav: FC<ISideNav> = ({ data, isShow, closeModal }) => {
                                     {
                                         data!.tags?.map((tag, index) => (
                                             <div key={index} className='inline-flex flex-wrap'>
-                                                <span className={`${data!.tags!.length > 4 ? 'mb-3' : ''} mr-4 bg-[#2d3d4d] rounded-sm px-3 py-1 text-xs font-medium text-white outline-offset-2 outline outline-slate-600`}>
+                                                <span className={`${data!.tags!.length > 4 ? 'mb-3' : ''} bulge mr-4 bg-[#2d3d4d] rounded-sm px-3 py-1 text-xs font-medium text-white outline-offset-2 outline outline-slate-600`}>
                                                     {tag}
                                                 </span>
                                             </div>

@@ -123,6 +123,10 @@ body {
     animation: popUp 500ms ease-in-out;   
 }
 
+.bulge:hover {
+    animation: bulge 2000ms infinite 500ms;
+}
+
 @keyframes popUp {
     from  {
         transform: translateY(20px);
@@ -130,6 +134,16 @@ body {
 
     to {
         transform: translateY(0px);
+    }
+}
+
+@keyframes bulge {
+    from  {
+        transform: scale(1.1, 1.1);
+    }
+
+    to {
+        transform: scale(1, 1);
     }
 }
 
