@@ -26,7 +26,7 @@ const Resume = () => {
                             <Link to='/contact' className='text-md text-white font-medium'> contact page,</Link>
                         </span>
                         <span>
-                            <a href="" target='_blank' className='text-md text-white font-medium'> view,</a>
+                            <a href="https://drive.google.com/drive/folders/1bJIKwlk_5s_0MppXWMd7WQBhfvxpsUKc" target='_blank' className='text-md text-white font-medium'> view,</a>
                         </span>
                         <span className='text-slate-400 font-light'> or </span>
                         <span className=' text-white font-medium'> download </span>
