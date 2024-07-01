@@ -2,7 +2,11 @@ import React from 'react'
 
 const Loader = () => {
   return (
-    <p className='text-5xl'>Loader...</p>
+    <div className='loader'>
+      <svg viewBox='0 0 1150 600'>
+        <text x='50%' y='50%' fill='transparent' text-anchor='middle' className='text-5xl font-bold'>Oluwakayode Adediran</text>
+      </svg>
+    </div>
   )
 }
 
