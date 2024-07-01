@@ -29,7 +29,7 @@ const Resume = () => {
                             <a href="https://drive.google.com/drive/folders/1bJIKwlk_5s_0MppXWMd7WQBhfvxpsUKc" target='_blank' className='text-md text-white font-medium'> view,</a>
                         </span>
                         <span className='text-slate-400 font-light'> or </span>
-                        <span className=' text-white font-medium'> download </span>
+                        <a href='../../../assets/files/Oluwakayode-Adediran-CV.pdf' download='Adediran Oluwakayode CV.pdf' className=' text-white font-medium'> download </a>
                         <span className='text-slate-400 font-light'> the resume </span>
                     </p>
 
