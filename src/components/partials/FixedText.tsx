@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import { FC } from 'react'
 import {  IFixedText } from '../../utils/types'
 
 const FixedText: FC<IFixedText> = ({ text, size, fontWeight, position }) => {

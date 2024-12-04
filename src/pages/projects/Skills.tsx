@@ -1,4 +1,3 @@
-import React from 'react'
 import SkillsList from './SkillsList'
 import { skills } from '../../components/mocks'
 

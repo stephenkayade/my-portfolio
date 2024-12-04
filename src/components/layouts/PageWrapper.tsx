@@ -1,7 +1,6 @@
 import React from 'react'
 import { IPageWrapper } from '../../utils/types'
 import Navbar from '../header/Navbar'
-import { usePositionScroll } from '../../hooks'
 
 const PageWrapper: React.FC<IPageWrapper> = ({ children }) => {
 

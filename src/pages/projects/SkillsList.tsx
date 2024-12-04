@@ -1,5 +1,4 @@
-import React, { FC } from 'react'
-import { skills } from '../../components/mocks'
+import { FC } from 'react'
 import { ISkillsData } from '../../utils/types'
 
 const SkillsList:FC<ISkillsData> = ({data}) => {

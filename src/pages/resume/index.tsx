@@ -1,7 +1,5 @@
-import React from 'react'
 import PageWrapper from '../../components/layouts/PageWrapper'
 import NextScreenButton from '../../components/partials/NextScreen'
-import SocialAccounts from '../../components/partials/SocialAccounts'
 import TitleText from '../../components/partials/TitleText'
 import FixedText from '../../components/partials/FixedText'
 import { Link } from 'react-router-dom'
@@ -26,7 +24,7 @@ const Resume = () => {
                             <Link to='/contact' className='text-md text-white font-medium'> contact page,</Link>
                         </span>
                         <span>
-                            <a href="https://drive.google.com/drive/folders/1bJIKwlk_5s_0MppXWMd7WQBhfvxpsUKc" target='_blank' className='text-md text-white font-medium'> view,</a>
+                            <a href="https://drive.google.com/drive/folders/1bJIKwlk_5s_0MppXWMd7WQBhfvxpsUKc" target='_blank' rel="noreferrer" className='text-md text-white font-medium'> view,</a>
                         </span>
                         <span className='text-slate-400 font-light'> or </span>
                         <a href='../../../assets/files/Oluwakayode-Adediran-CV.pdf' download='Adediran Oluwakayode CV.pdf' className=' text-white font-medium'> download </a>

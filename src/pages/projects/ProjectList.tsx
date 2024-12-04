@@ -1,7 +1,6 @@
-import React, { MouseEvent, useState } from 'react'
+import { MouseEvent, useState } from 'react'
 import { ProjectsData } from '../../components/mocks'
 import SideNav from './SideNav'
-import Reveal from '../../components/animations/Reveal'
 
 const ProjectList = () => {
 

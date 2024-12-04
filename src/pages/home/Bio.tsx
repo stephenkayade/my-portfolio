@@ -1,6 +1,3 @@
-import React from 'react'
-import GlitchText from '../../components/partials/GitchText'
-
 const Bio = () => {
     return (
         <>

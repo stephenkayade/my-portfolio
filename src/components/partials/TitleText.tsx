@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import { FC } from 'react'
 import {  ItitleText } from '../../utils/types'
 
 const TitleText: FC<ItitleText> = ({ text, size, fontWeight, className }) => {

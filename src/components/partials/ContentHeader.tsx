@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import{ FC } from 'react'
 import { IContentHeader } from '../../utils/types'
 
 const ContentHeader: FC<IContentHeader> = ({ size, title, fontWeight }) => {

@@ -1,5 +1,5 @@
 import React, { FC, useEffect, useRef } from 'react'
-import { motion, useMotionValue, useSpring, useTransform, useInView, useAnimation } from 'framer-motion'
+import { motion, useInView, useAnimation } from 'framer-motion'
 import { IReveal } from '../../utils/types'
 
 

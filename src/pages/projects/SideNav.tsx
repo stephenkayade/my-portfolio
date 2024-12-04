@@ -1,4 +1,4 @@
-import React, { FC, MouseEvent, useEffect, useRef, useState } from 'react'
+import { FC, MouseEvent, useEffect } from 'react'
 import Modal from '../../components/partials/Modal'
 import { ISideNav } from '../../utils/types'
 import TitleText from '../../components/partials/TitleText'
@@ -18,8 +18,6 @@ const SideNav: FC<ISideNav> = ({ data, isShow, closeModal }) => {
         closeModal(e)
 
     }
-
-    const count = data?.tags?.length
 
     return (
         <>
@@ -104,7 +102,7 @@ const SideNav: FC<ISideNav> = ({ data, isShow, closeModal }) => {
 
                                 <TitleText fontWeight='medium' text='Website' size='lg' className='mb-2' />
 
-                                <a href={`${data.link}`} target='_blank' className='text-slate-400 2xl:text-lg text-sm font-medium hover:underline'>{data.link}</a>
+                                <a href={`${data.link}`} target='_blank' rel="noreferrer" className='text-slate-400 2xl:text-lg text-sm font-medium hover:underline'>{data.link}</a>
 
 
                             </div>
@@ -116,7 +114,7 @@ const SideNav: FC<ISideNav> = ({ data, isShow, closeModal }) => {
 
                     <div className="absolute bottom-0 left-0 right-0 h-16 flex items-center">
 
-                        <a href={`${data.link}`} target='_blank' className='flex items-center justify-center h-full bg-slate-700 w-full'>
+                        <a href={`${data.link}`} target='_blank' rel="noreferrer" className='flex items-center justify-center h-full bg-slate-700 w-full'>
 
                             <span className='text-sm font-semibold text-white pr-3 hover:underline'>Open Project</span>
 

@@ -1,6 +1,4 @@
-import React from 'react'
 import PageWrapper from '../../components/layouts/PageWrapper'
-import Navbar from '../../components/header/Navbar'
 import GlitchText from '../../components/partials/GitchText'
 import Bio from './Bio'
 import NextScreenButton from '../../components/partials/NextScreen'

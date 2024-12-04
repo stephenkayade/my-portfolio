@@ -1,13 +1,8 @@
-import React from 'react'
 import PageWrapper from '../../components/layouts/PageWrapper'
-import Navbar from '../../components/header/Navbar'
-import GlitchText from '../../components/partials/GitchText'
 import NextScreenButton from '../../components/partials/NextScreen'
-import SocialAccounts from '../../components/partials/SocialAccounts'
 import TitleText from '../../components/partials/TitleText'
 import FixedText from '../../components/partials/FixedText'
-import TimeLine from '../../components/partials/TimeLine'
-import { AboutTimelines, MyReadsTimelines, contactList } from '../../components/mocks'
+import {contactList } from '../../components/mocks'
 import ContactList from './ContactList'
 
 const Contact = () => {
@@ -34,7 +29,6 @@ const Contact = () => {
                         </div>
 
                     </div>
-
 
                 </div>
 

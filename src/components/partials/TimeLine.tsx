@@ -1,5 +1,4 @@
-import React, { FC } from 'react'
-import { AboutTimelines } from '../mocks'
+import { FC } from 'react'
 import { IAboutTimeLine } from '../../utils/types'
 import Reveal from '../animations/Reveal'
 
@@ -39,7 +38,7 @@ const TimeLine: FC<IAboutTimeLine> = ({ data }) => {
 
                                     </h2>
 
-                                    <a href={`${timeline.link}`} target='_blank' className='flex items-center -mt-1.5 font-light capitalize'>
+                                    <a href={`${timeline.link}`} target='_blank' rel="noreferrer" className='flex items-center -mt-1.5 font-light capitalize'>
                                         {
                                             timeline.linkIcon &&
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">

@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import { FC } from 'react'
 import { IGlitchText } from '../../utils/types'
 
 const GlitchText: FC<IGlitchText> = ({ text }) => {

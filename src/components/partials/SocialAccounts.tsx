@@ -1,13 +1,10 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-
 const SocialAccounts = () => {
     return (
         <>
             <div className="flex gap-10 items-center">
 
                 {/* LINKEDIN */}
-                <a href="https://www.linkedin.com/in/stephen-adediran-37b68618a/" target='_blank'>
+                <a href="https://www.linkedin.com/in/stephen-adediran-37b68618a/" target='_blank' rel="noreferrer">
 
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -21,7 +18,7 @@ const SocialAccounts = () => {
                 </a>
 
                 {/* YOUTUBE */}
-                <a href="https://www.youtube.com/channel/UCu1Q9PnwRm8LSPlc0PdZehQ" target='_blank' className='pt-1'>
+                <a href="https://www.youtube.com/channel/UCu1Q9PnwRm8LSPlc0PdZehQ" target='_blank' rel="noreferrer" className='pt-1'>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="2xl:size-5 lg:size-6 size-4"
@@ -34,7 +31,7 @@ const SocialAccounts = () => {
                 </a>
 
                 {/* WHATSAPP */}
-                <a href='https://wa.me/7043610278' target='_blank' className='pt-1'>
+                <a href='https://wa.me/7043610278' target='_blank' rel="noreferrer" className='pt-1'>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="2xl:size-5 lg:size-6 size-4"
@@ -46,7 +43,7 @@ const SocialAccounts = () => {
                 </a>
 
                 {/* GITHUB */}
-                <a href='https://wa.me/7043610278' target='_blank' className='pt-1'>
+                <a href='https://wa.me/7043610278' target='_blank' rel="noreferrer" className='pt-1'>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="2xl:size-5 lg:size-6 size-4"

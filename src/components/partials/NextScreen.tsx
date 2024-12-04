@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import { FC } from 'react'
 import { INextScreenText } from '../../utils/types'
 import { Link } from 'react-router-dom'
 

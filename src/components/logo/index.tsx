@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import { FC } from 'react'
 import { ILogo } from '../../utils/types'
 
 const Logo: FC<ILogo> = ({ width, height }) => {
