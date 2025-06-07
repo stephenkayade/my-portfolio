@@ -148,6 +148,36 @@ export const MyReadsTimelines = [
 export const ProjectsData = [
 
     {
+        id: 'ipLatolinux-mobile',
+        title: 'Latolinux Mobile',
+        link: '',
+        headline: 'Smart Solution for Hotel Bookings',
+        img: '../../../assets/images/img@latolinux-mobile.webp',
+        tags: ['React Native', 'Stylesheets', 'SEO', 'Javascript', 'Typescript', 'React-Cli', 'Redux Toolkit Query', 'Redux Toolkit'],
+        desc: "Latolinux is a smart solution for bookings"
+    },
+
+    {
+        id: 'ipLatolinux',
+        title: 'Latolinux',
+        link: '',
+        headline: 'Smart Solution for Hotel Bookings',
+        img: '../../../assets/images/img@latolinux.webp',
+        tags: ['React', 'Bootstrap', 'SEO', 'Javascript', 'Typescript', 'CRA', 'ContextAPI', 'Redux Toolkit Query', 'Redux Toolkit'],
+        desc: "Latolinux is a smart solution for bookings"
+    },
+
+    {
+        id: 'ipPacitude',
+        title: 'Pacitude',
+        link: '',
+        headline: 'Measure, master and move forward.',
+        img: '../../../assets/images/img@pacitude.webp',
+        tags: ['React', 'Taiwind', 'SEO', 'Javascript', 'Typescript', 'Vite', 'ContextAPI'],
+        desc: "Envision a companion that walks alongside you, ensuring you're on the right path, every step of the way. That's Pacitude – our promise to support your successful career journey, worry-free."
+    },
+
+    {
         id: 'ipterra',
         title: 'Terraswitch.',
         link: 'https://terraswitching.com/',
@@ -261,7 +291,8 @@ export const skills = [
     'Jupyter Notebook',
     'Heroku',
     'Railway',
-    'Vercel'
+    'Vercel',
+    'Vite',
 ]
 
 export const contactList = [
