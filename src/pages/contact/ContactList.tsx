@@ -11,7 +11,7 @@ const ContactList: FC<IContactList> = ({ data }) => {
                         <div key={detail.id} className='xl:w-96 w-full'>
                             <div className='flex items-center justify-between'>
                                 <div className=''>
-                                    <a href={detail.link} target='_blank' rel="noreferrer" className=''>
+                                    <a href={detail.link} target='_blank' rel="noopener noreferrer">
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             className="2xl:size-5 lg:size-6 xl:size-5 size-4"
