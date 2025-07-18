@@ -1,12 +1,16 @@
-import React, { FC, useEffect, useRef } from 'react'
+import { FC, ReactNode, useEffect, useRef } from 'react'
 import { motion, useInView, useAnimation } from 'framer-motion'
-import { IReveal } from '../../utils/types'
 
+interface IRevealProps {
+    children: ReactNode,
+    className?: string,
+    delay?: any
+}
 
-const Reveal:FC<IReveal> = ({ children, className, delay }) => {
+const Reveal: FC<IRevealProps> = ({ children, className, delay }) => {
 
-    const ref = useRef<any>(null)
-    const isInView = useInView(ref, { once: true})
+    const ref = useRef(null)
+    const isInView = useInView(ref, { once: true })
 
     const mainControls = useAnimation()
 
@@ -25,6 +29,7 @@ const Reveal:FC<IReveal> = ({ children, className, delay }) => {
                     hidden: { opacity: 0, y: 75 },
                     visible: { opacity: 1, y: 0 },
                 }}
+
                 initial='hidden'
                 animate={mainControls}
                 transition={{ duration: 0.65, delay: delay ? delay : 0.2 }}

@@ -148,6 +148,26 @@ export const MyReadsTimelines = [
 export const ProjectsData = [
 
     {
+        id: 'ipDesignbyadeola',
+        title: 'DesignByAdeola',
+        link: 'https://designbyadeola.vercel.app/',
+        headline: 'Product designer',
+        img: '../../../assets/images/img@Designbyadeola.webp',
+        tags: ['React', 'Taiwind', 'SEO', 'Javascript', 'Typescript', 'Vite'],
+        desc: "Adeola is passionate about solving problems with design by building accessible product for humans."
+    },
+
+    {
+        id: 'ipProffessorAtteh',
+        title: 'Proffessor Atteh',
+        link: 'https://www.prof-atteh.com/',
+        headline: "Professor Atteh's Legacy",
+        img: '../../../assets/images/img@ProffessorAtteh.webp',
+        tags: ['React', 'Taiwind', 'SEO', 'Javascript', 'Typescript', 'Vite', 'Redux', 'RTK Query'],
+        desc: "Bridging global expertise and local impact, he pioneers agricultural innovation, shaping minds and redefining research in Nigeria."
+    },
+
+    {
         id: 'ipLatolinux-mobile',
         title: 'Latolinux Mobile',
         link: '',
@@ -170,10 +190,10 @@ export const ProjectsData = [
     {
         id: 'ipPacitude',
         title: 'Pacitude',
-        link: '',
+        link: 'https://talent.pacitude.com/',
         headline: 'Measure, master and move forward.',
         img: '../../../assets/images/img@pacitude.webp',
-        tags: ['React', 'Taiwind', 'SEO', 'Javascript', 'Typescript', 'Vite', 'ContextAPI'],
+        tags: ['React', 'Taiwind', 'SEO', 'Javascript', 'Typescript', 'Vite', 'ContextAPI', 'AI'],
         desc: "Envision a companion that walks alongside you, ensuring you're on the right path, every step of the way. That's Pacitude – our promise to support your successful career journey, worry-free."
     },
 
@@ -210,7 +230,7 @@ export const ProjectsData = [
     {
         id: 'ipconcreap',
         title: 'Concreap.',
-        link: 'https://concreap.com/',
+        link: 'https://www.concreap.com/',
         headline: 'Building smart, great talents',
         img: '../../../assets/images/concreap.webp',
         tags: ['React', 'Bootstrap', 'SEO', 'Javascript', 'Typescript', 'Nextjs', 'CRA', 'ContextAPI'],
@@ -285,7 +305,7 @@ export const skills = [
     'Asana',
     'Vscode',
     'Postman',
-    'MongoDB compass',
+    'MongoDB',
     'npm',
     'yarn',
     'Jupyter Notebook',

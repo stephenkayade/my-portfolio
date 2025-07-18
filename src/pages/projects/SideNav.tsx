@@ -27,7 +27,7 @@ const SideNav: FC<ISideNav> = ({ data, isShow, closeModal }) => {
 
                     <div className='overflow-y-auto h-full pb-12'>
 
-                        <div className="flex items-center justify-between border-b-[0.5px] border-slate-50/15 pb-4">
+                        <div className="absolute md:top-8 top-4 flex items-center md:justify-between border-b-[0.5px] border-slate-50/15 pb-4 md:w-[485px] w-full">
 
                             <button onClick={(e) => closeX(e)} className="2xl:size-7 size-5 cursor flex items-center 2xl:border-none border-2 border-slate-400 rounded-full justify-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={4} stroke="rgb(148 163 184)" className="2xl:size-5 size-3 text-slate-300">
@@ -36,11 +36,11 @@ const SideNav: FC<ISideNav> = ({ data, isShow, closeModal }) => {
 
                             </button>
 
-                            <button onClick={(e) => closeX(e)} className='text-slate-500 2xl:text-base text-sm font-bold hover:underline capitalize'>Back to projects</button>
+                            <button onClick={(e) => closeX(e)} className='text-slate-500 2xl:text-base text-lg font-bold hover:underline capitalize md:pl-0 pl-5'>Back to projects</button>
 
                         </div>
 
-                        <div className='pt-7'>
+                        <div className='pt-12'>
 
                             <div className='mb-7'>
 

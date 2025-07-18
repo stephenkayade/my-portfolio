@@ -4,7 +4,7 @@ const Bio = () => {
             <div className='text-white/70 pt-20 text-md font-light 2xl:leading-[2.3em] lg:leading-[2.3em] md:leading-[2.3em] leading-loose'>
 
                 <p className='2xl:mb-7 lg:mb-8 mb-4 2xl:text-2xl xl:text-lg lg:text-2xl text-[15px] lg:leading-[2.1em]'>
-                    👋 Hi there! I’m a result-driven frontend engineer with over 6 years of experience building scalable web applications
+                    👋 Hi there! I’m a result-driven frontend engineer with over 5 years of experience building scalable web applications
                     across EdTech, FinTech, and SaaS industries. Proven track record of transforming UI designs and API
                     documentation into high-performance user interfaces, mentoring junior developers, and driving
                     product growth through clean, maintainable code.</p>
